@@ -1,4 +1,4 @@
-"use strict"
+"use strict" // enforces strict types and kills unsafe practices & functions
 
 var util = require("util");
 var eventEmitter = require('events').EventEmitter;
