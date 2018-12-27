@@ -14,6 +14,7 @@ server.on('connection', function(){
 	console.log('connection event');
 });
 
+// Listen is async so printed after "Server running on . . ."
 server.listen(8124, function(){
 	console.log('listening event');
 });
