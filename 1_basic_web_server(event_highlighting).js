@@ -1,3 +1,9 @@
+/*
+O'reilley Learning Node
+simple web server example!
+notice how in a few line we can hit up a HTTP server and make it listen to requests, connections, and certain ports.
+*/
+
 var http = require('http');
 
 var server = http.createServer();
